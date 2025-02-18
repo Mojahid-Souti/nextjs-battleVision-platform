@@ -1,50 +1,50 @@
-# React + TypeScript + Vite
+# BattleVision 🛡️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BattleVision is a real-time military surveillance system that monitors and analyzes attack patterns between Al Khoudh and Muscat zones using AI-powered pattern recognition.
 
-Currently, two official plugins are available:
+<img width="400" alt="b1" src="https://github.com/user-attachments/assets/5c0f7c32-d077-4c6f-8a1f-3785d29902f4" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ✨
 
-## Expanding the ESLint configuration
+- **Real-time Surveillance**
+  - Live monitoring of military zones
+  - Dynamic sensor network visualization
+  - Drone patrol tracking
+  - Interactive map interface
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<img width="400" alt="b2" src="https://github.com/user-attachments/assets/453ac9aa-baea-4c6c-93e9-761de1d19913" />
 
-- Configure the top-level `parserOptions` property like this:
+- **Attack Detection & Analysis**
+  - Pattern recognition using UNSW-NB15 dataset
+  - Multiple attack type detection (DDoS, MitM, Spoofing, Jamming)
+  - Real-time threat assessment
+  - Visual attack path tracking
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **AI-Powered Analysis**
+  - Pattern matching with real-world attack data
+  - Confidence scoring
+  - Automated threat level assessment
+  - Actionable recommendations
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<img width="400" alt="b3" src="https://github.com/user-attachments/assets/aaed1069-1245-4cbf-9f24-9e19819954eb" />
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Technologies Used 🚀
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Frontend**
+  - React 18
+  - TypeScript
+  - Tailwind CSS
+  - shadcn/ui
+
+- **Mapping**
+  - MapboxGL
+
+- **Data Analysis**
+  - UNSW-NB15 Dataset
+  - Pattern Recognition System
+
+## Getting Started 🌟
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Mojahid-Souti/nextjs-battleVision-platform.git
